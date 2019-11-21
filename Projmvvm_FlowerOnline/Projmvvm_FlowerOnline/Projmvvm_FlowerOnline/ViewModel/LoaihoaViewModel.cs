@@ -53,7 +53,7 @@ namespace Projmvvm_FlowerOnline.ViewModel
         }
         private void Update(object obj)
         {
-            loaihoaRepository.Delete(loaihoa);
+            loaihoaRepository.Update(loaihoa);
             LoadLoaihao();
         }
 
